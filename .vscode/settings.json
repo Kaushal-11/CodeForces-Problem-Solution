@@ -58,7 +58,8 @@
   "files.associations": {
     "random": "cpp",
     "*.tcc": "cpp",
-    "iostream": "cpp"
+    "iostream": "cpp",
+    "ostream": "cpp"
   },
   "C_Cpp_Runner.msvcSecureNoWarnings": false
 }
