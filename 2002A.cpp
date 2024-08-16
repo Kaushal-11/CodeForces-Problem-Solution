@@ -12,14 +12,14 @@ using namespace std;
 #define lcm(a,b) ((a*b)/gcd(a,b))
 #define yes cout << "YES" << endl
 #define no cout << "NO" << endl
-
 int main() {
     fast_io;
-
     ll t;
     cin>>t;
     while(t--){
-
+        int n,m,k;
+        cin>>n>>m>>k;
+        cout<<min(n,k)*min(m,k)<<endl;
     }
     return 0;
 }
